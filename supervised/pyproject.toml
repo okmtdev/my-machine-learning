@@ -1,0 +1,26 @@
+[project]
+name = "supervised"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "okmtdev", email = "okmtdev@gmail.com" }
+]
+dependencies = [
+    "scikit-learn>=1.4.2",
+    "mglearn>=0.2.0",
+    "mlxtend>=0.23.1",
+#    "pandas-profiling>=3.2.0",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
