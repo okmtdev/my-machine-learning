@@ -2,6 +2,20 @@
 
 Describe your project here.
 
+Mac
+
+- 型: MacBook Air M2 2022
+- チップ: Apple M2
+- メモリ: 24 GB
+- ストレージ: 494.38 GB
+
+Linux
+
+- CPU: AMD Ryzen 7 5700X
+- GPU: GeForce RTX 3060 VENTUS 2X 12G OC
+- メモリ: 64GB DDR4-3200
+- ストレージ: Western Digital 1TB WD Blue SN580 NVMe
+
 Mac で実行
 
 ```
