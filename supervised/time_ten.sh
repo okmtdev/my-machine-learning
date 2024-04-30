@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# 合計時間を初期化
+filename=$1
+
 total_real=0
 total_user=0
 total_sys=0
@@ -9,7 +10,7 @@ total_sys=0
 for i in {1..10}
 do
     # time コマンドの出力を変数に格納
-    output=$( (time rye run python src/supervised/boston.py) 2>&1 1>/dev/null )
+    output=$( (time rye run python $filename) 2>&1 1>/dev/null )
 
     # 'real', 'user', 'sys' の時間を抽出
     real_time=$(echo "$output" | grep real | awk '{print $2}')
