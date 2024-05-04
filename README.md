@@ -28,6 +28,8 @@ Choosing the right estimator
 ![alt text](https://scikit-learn.org/stable/_static/ml_map.png)
 https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 
+## 最小二乗法
+
 特徴量の正規化: 各特徴量のスケール（値の幅）を調整する操作のこと
 
 特徴量エンジニアリングのこと
@@ -39,3 +41,9 @@ https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 random_state には 0 を指定して乱数シードを固定する。プログラムの実行手順と結果の再現性を確保することは大切です。
 
 sklearn の linear_model の LinearRegression クラスを用いて線形回帰モデルを作成できる
+
+## ロジスティック回帰
+
+ロジスティック回帰はクラス分類に用いられる
+
+二次元にマッピングされた２クラスの道データをなるべくうまく分類するような境界となるモデルを学習させることが目標になる
